@@ -2,11 +2,11 @@
 kind: ConfigMap 
 apiVersion: v1 
 metadata:
-  name: springapp-configmap
+  name: phpapp-configmap
 data:
   # Configuration values can be set as key-value properties
-  username: springapp
-  password: mongodb@123
+  username: neudesicuser
+  password: neudesic8$1234
 ---
 # Replication Controller for springapp
 apiVersion: v1
